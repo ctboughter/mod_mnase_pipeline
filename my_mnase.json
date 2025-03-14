@@ -1,0 +1,19 @@
+{
+    "atac.title" : "Boughter_mnase",
+    "atac.description" : "Running a first pilot experiment and analysis of mnase-seq experiments. Partial digest w/ mnase followed by paired-end sequencing",
+
+    "atac.pipeline_type" : "dnase",
+    "atac.align_only" : true,
+    "atac.true_rep_only" : false,
+
+    "atac.genome_tsv" : "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/mm10.tsv",
+
+    "atac.paired_end" : true,
+
+    "atac.fastqs_rep1_R1" : [ "/home/bizon/Desktop/bigMachine_mnase/ILLUMINA_DATA/d005_QIA-B02_L001_R1.fastq.gz" ],
+    "atac.fastqs_rep1_R2" : [ "/home/bizon/Desktop/bigMachine_mnase/ILLUMINA_DATA/d005_QIA-B02_L001_R2.fastq.gz" ],
+
+    "atac.auto_detect_adapter" : false,
+
+    "atac.multimapping" : 4
+}
